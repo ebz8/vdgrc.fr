@@ -1,0 +1,38 @@
+/**
+----------------------
+bases
+----------------------
+*/
+
+body{
+    margin: 8rem 12rem;
+    background-color: $couleur-fond;
+    color: $couleur-ton-clair;
+    font-family: 'spectral';
+}
+
+p, a, h1, h2, h3, h4 {
+    font-weight: normal;
+    font-size: inherit;
+    color: inherit;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.calendrier-ateliers {
+    display: flex;
+
+    // h1 {
+    //     width: 200%;
+    // }
+}
+.atelier {
+    display: flex;
+
+}
